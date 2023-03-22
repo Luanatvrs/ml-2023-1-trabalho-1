@@ -30,7 +30,7 @@ for column in colunas:
     li = q1 - (1.5 * iqr)
     ls = q3 + (1.5 * iqr) 
 
-    print('column:', column)
+    print('coluna:', column)
     print('Limite inferior:', li)
     print('Limite superior:', ls)
     print('IQR:', iqr)
