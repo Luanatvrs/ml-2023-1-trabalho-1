@@ -61,5 +61,5 @@ for column in colunas:
 
 print('Dados sem outliers:')
 print(dt[colunas])
-dt.to_csv('dataset_clean.csv', index=False)
+dt_cleanOutliers.to_csv('dataset_clean.csv', index=False)
 
